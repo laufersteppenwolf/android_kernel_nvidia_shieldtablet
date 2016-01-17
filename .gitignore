@@ -91,3 +91,7 @@ extra_certificates
 signing_key.priv
 signing_key.x509
 x509.genkey
+
+# Building leftovers
+arch/arm/kernel/vdso32/vdso-offsets.h
+arch/arm/kernel/vdso32/vdso32.lds
