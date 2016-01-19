@@ -25,6 +25,7 @@ echo ''
 mkdir out
 mkdir out/modules
 cp arch/arm/boot/zImage out/zImage
+cp arch/arm/boot/dts/tegra124-tn8-p1761-1270-a04-e-battery.dtb out/tegra124-tn8-p1761-1270-a04-e-battery.dtb
 # Find and copy modules
 find ./drivers -name '*.ko' | xargs -I {} cp {} ./out/modules/
 find ./net -name '*.ko' | xargs -I {} cp {} ./out/modules/
